@@ -1,5 +1,5 @@
-# Student name
-# Current date
+# Ethan Lawrence
+# september 10, 2024
 # f-String Adventure Story
 
 '''
@@ -21,3 +21,10 @@ Directions:
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
+
+firstName = input('What is the hero\'s name? example: Dax \n')
+setting = input('What is the setting of this story? example: the kingdom of newest york\n')
+gameObject = input('What will the hero find on their journey? example: a mysterous purple cube with anchent engravings\n')
+
+story = (f'{firstName} Is a hero of great legend. in their time of adventuring they retreved {gameObject} from a extrodenarily dangerous {setting}. they then used the {gameObject} to defeat the great evil and banish them from {setting} freeing it\'s people from peril.')
+print(story)
