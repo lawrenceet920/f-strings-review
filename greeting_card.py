@@ -1,5 +1,5 @@
-# Student name
-# Current date
+# Ethan Lawrence
+# september 10, 2024
 # f-String Greeting Card 
 
 '''
